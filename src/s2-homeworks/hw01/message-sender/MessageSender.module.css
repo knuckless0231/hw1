@@ -1,0 +1,32 @@
+.sendForm {
+    border-radius: 10px;
+    padding: 30px;
+    color:greenyellow;
+    height: 30px;
+
+}
+
+.textarea {
+    border-radius:3px;
+    color: #197896;
+}
+
+.button {
+background-color: greenyellow;
+    width: 50px;
+    height: 20px;
+    border:none;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #6b9b1f
+}
+
+.button:hover {
+    background-color: #8ee70f;
+    transition: 400ms;
+    color: #477205
+}
+
+.button:active {
+
+}
