@@ -49,10 +49,9 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> =
     const [name, setName] = useState<string>('')
     const [error, setError] = useState<string>('Error')
 
-    const setNameCallback = (value: string) => { // need to fix any
-        setName(value) // need to fix
-
-        error && setError('')
+    const setNameCallback = (e: string) => {
+        setName(e)
+        error && setError('Yobana')
     }
     const addUser = () => {
         pureAddUser(name, setError, setName, addUserCallback)
