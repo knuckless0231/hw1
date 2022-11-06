@@ -80,12 +80,12 @@ const Stand = () => {
                     <SuperCheckbox
                         id={'hw4-super-checkbox-with-text'}
                         checked={stateForAllCheckboxes}
-                        onChangeChecked={setChecked}
-                    >
+                        onChangeChecked={setChecked}>
                         some text
                     </SuperCheckbox>
                 </div>
                 {/*совместим со старым кодом:*/}
+
                 <div>
                     <SuperCheckbox
                         id={'hw4-super-checkbox-like-old'}

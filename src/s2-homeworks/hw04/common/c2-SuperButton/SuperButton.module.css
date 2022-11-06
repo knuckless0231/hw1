@@ -1,36 +1,53 @@
 .button {
+    background-color: rgba(58, 148, 176, 0.78);
+
 }
 
 .disabled {
+
 }
 
 .secondary {
+    background-color: #a9a9a9;
+
 }
 
 .default {
+    background-color: #197896;
 }
 
 .red {
+    color: rgba(231, 67, 67, 0.55);
 }
 
 .default:hover {
+    background-color: #0e6788;
 }
 
 .red:hover {
+    color: rgba(243, 30, 30, 0.78);
+
 }
 
 .secondary:hover {
+    background-color: gray;
 }
 
-
 .default:active {
+    background-color: rgba(46, 182, 234, 0.7);
+
 }
 
 .secondary:active {
+    background-color: #9b9999;
+
 }
 
 .red:active {
+    color: rgb(255, 0, 0);
+
 }
 
 .button:disabled {
+
 }

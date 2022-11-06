@@ -25,7 +25,7 @@ const Greeting: React.FC<GreetingPropsType> = (
         lastUserName,
     }
 ) => {
-    const inputClass = s.errorInput // need to fix with (?:)
+    const inputClass = error? s.errorInput : s.input
 
 
     return (
