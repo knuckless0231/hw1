@@ -10,6 +10,7 @@ export const Layout: FC<PropsType> = ({ children }) => {
     const [open, setOpen] = useState(false)
     const handleClose = () => setOpen(false)
     const handleOpen = () => setOpen(true)
+    console.log('handleOpen is clicked')
 
     useEffect(() => {
         open && (document.body.style.overflow = 'hidden')
@@ -20,6 +21,7 @@ export const Layout: FC<PropsType> = ({ children }) => {
         <>
             <Sidebar open={open} handleClose={handleClose} />
             <Header handleOpen={handleOpen} />
+
             <div>
                 {/*страницы*/}
                 {children}

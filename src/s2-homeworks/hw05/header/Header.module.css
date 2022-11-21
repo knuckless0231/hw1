@@ -1,8 +1,19 @@
 .burgerMenuIcon {
+height: 100%;
+    background-color: darkcyan;
+}
+
+.burgerMenuIcon:hover{
+    cursor: pointer;
 }
 
 .header {
+    height: 50px;
+    background-color: #5f5ff5;
+    z-index: 1;
 }
 
 .header h1 {
+    height:40px;
+    background-color: #0e6788;
 }
